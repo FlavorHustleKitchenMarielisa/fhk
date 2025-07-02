@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flavor Kitchen | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Luckiest Guy', cursive;
+      background: linear-gradient(180deg, #ff4500, #ffa500);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      max-width: 250px;
+    }
+    .tagline {
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #fff;
+      border-bottom: 4px solid #fff;
+      display: inline-block;
+    }
+    .about, .menu, .order, .contact {
+      margin-bottom: 3rem;
+      font-size: 1.6rem;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .menu-item {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      border-radius: 10px;
+      flex: 1 1 250px;
+    }
+    .cta-button {
+      background: #fff;
+      color: #ff4500;
+      padding: 1rem 2rem;
+      font-size: 1.6rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #222;
+      font-size: 1.2rem;
+    }
+    a {
+      font-size: 1.4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Flavor Hustle Kitchen Logo" />
+    <div class="tagline">Heating up the kitchen and the city – Columbia, SC</div>
+  </header>
+
+  <section class="about">
+    <div class="section-title">About Us</div>
+    <p>
+      Flavor Hustle Kitchen is a home-based food business in the Columbia, SC area. As we aim to give the city more food options that will not disappoint, we're cooking up delicious homemade meals and fresh, muddled lemonades right from our kitchen to yours. We offer a variety of food genres from soul food to Caribbean and even tex-mex made with pure hustle and love for flavor. We just want to give the people what they want.
+    </p>
+  </section>
+
+  <section class="menu">
+    <div class="section-title">Menu Preview</div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <strong>Lemonade Flavors</strong><br />
+        Apricot, Mango, Strawberry, Pineapple & More
+      </div>
+      <div class="menu-item">
+        <strong>Fajita Quesadillas</strong><br />
+        Cheesy, sizzling, packed with seasoned flavor. (chicken or steak)
+      </div>
+      <div class="menu-item">
+        <strong>Rasta Pasta</strong><br />
+        Creamy, spicy, and bursting with Caribbean flair.
+      </div>
+    </div>
+  </section>
+
+  <section class="order">
+    <div class="section-title">Order Online</div>
+    <p>We’ll be launching online orders soon! Stay tuned.</p>
+    <a href="#" class="cta-button">Follow us on Instagram</a>
+  </section>
+
+  <section class="contact">
+    <div class="section-title">Contact</div>
+    <p>Email: <a href="mailto:flavorhustlekitchen@gmail.com" style="color: #fff; text-decoration: underline;">flavorhustlekitchen@outlook.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/flavorhustlekitchen" style="color: #fff; text-decoration: underline;">@flavorhustlekitchen</a></p>
+    <p>Location: Columbia, South Carolina</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Flavor Hustle Kitchen. All rights reserved.
+  </footer>
+</body>
+</html>
