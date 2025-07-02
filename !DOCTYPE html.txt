@@ -111,7 +111,7 @@
 
   <section class="contact">
     <div class="section-title">Contact</div>
-    <p>Email: <a href="mailto:flavorhustlekitchen@gmail.com" style="color: #fff; text-decoration: underline;">flavorhustlekitchen@outlook.com</a></p>
+    <p>Email: <a href="mailto:flavorhustlekitchen@outlook.com" style="color: #fff; text-decoration: underline;">flavorhustlekitchen@iutlook.com</a></p>
     <p>Instagram: <a href="https://instagram.com/flavorhustlekitchen" style="color: #fff; text-decoration: underline;">@flavorhustlekitchen</a></p>
     <p>Location: Columbia, South Carolina</p>
   </section>
